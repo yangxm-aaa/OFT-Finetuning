@@ -17,11 +17,13 @@ Key advantages:
 
 ```
 oft_finetune/
-├── train_oft.py          # Main training script (complete pipeline)
-├── inference.py           # Inference script for the finetuned model
-├── requirements.txt       # Python dependencies
-├── README.md              # This file
-└── output/                # Generated after training
+├── train_oft.py               # Main training script (complete pipeline)
+├── inference.py               # Inference script for the finetuned model
+├── plot_confusion_matrix.py   # Plot the confusion matrix
+├── plot_training_curves.py    # Plot the training curve
+├── requirements.txt           # Python dependencies
+├── README.md                  # This file
+└── output/                    # Generated after training
     ├── training_curves.png
     ├── before_after_comparison.png
     ├── qualitative_comparison.png
